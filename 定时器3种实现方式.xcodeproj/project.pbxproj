@@ -15,6 +15,9 @@
 		A36CEF4922C60E9400B345A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A36CEF4822C60E9400B345A5 /* main.m */; };
 		A36CEF5322C60E9400B345A5 /* ___3_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A36CEF5222C60E9400B345A5 /* ___3_____Tests.m */; };
 		A36CEF5E22C60E9400B345A5 /* ___3_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A36CEF5D22C60E9400B345A5 /* ___3_____UITests.m */; };
+		A36CEF6D22C99C6E00B345A5 /* TimerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A36CEF6C22C99C6E00B345A5 /* TimerController.m */; };
+		A36CEF7022C99C8800B345A5 /* DisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = A36CEF6F22C99C8800B345A5 /* DisplayController.m */; };
+		A36CEF7322C99C9500B345A5 /* GCDController.m in Sources */ = {isa = PBXBuildFile; fileRef = A36CEF7222C99C9400B345A5 /* GCDController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		A36CEF5922C60E9400B345A5 /* 定时器3种实现方式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "定时器3种实现方式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36CEF5D22C60E9400B345A5 /* ___3_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___3_____UITests.m"; sourceTree = "<group>"; };
 		A36CEF5F22C60E9400B345A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A36CEF6B22C99C6E00B345A5 /* TimerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerController.h; sourceTree = "<group>"; };
+		A36CEF6C22C99C6E00B345A5 /* TimerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerController.m; sourceTree = "<group>"; };
+		A36CEF6E22C99C8800B345A5 /* DisplayController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayController.h; sourceTree = "<group>"; };
+		A36CEF6F22C99C8800B345A5 /* DisplayController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayController.m; sourceTree = "<group>"; };
+		A36CEF7122C99C9400B345A5 /* GCDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDController.h; sourceTree = "<group>"; };
+		A36CEF7222C99C9400B345A5 /* GCDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				A36CEF3A22C60E9100B345A5 /* AppDelegate.m */,
 				A36CEF3C22C60E9100B345A5 /* ViewController.h */,
 				A36CEF3D22C60E9100B345A5 /* ViewController.m */,
+				A36CEF6B22C99C6E00B345A5 /* TimerController.h */,
+				A36CEF6C22C99C6E00B345A5 /* TimerController.m */,
+				A36CEF6E22C99C8800B345A5 /* DisplayController.h */,
+				A36CEF6F22C99C8800B345A5 /* DisplayController.m */,
+				A36CEF7122C99C9400B345A5 /* GCDController.h */,
+				A36CEF7222C99C9400B345A5 /* GCDController.m */,
 				A36CEF3F22C60E9100B345A5 /* Main.storyboard */,
 				A36CEF4222C60E9400B345A5 /* Assets.xcassets */,
 				A36CEF4422C60E9400B345A5 /* LaunchScreen.storyboard */,
@@ -262,8 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A36CEF7022C99C8800B345A5 /* DisplayController.m in Sources */,
 				A36CEF3E22C60E9100B345A5 /* ViewController.m in Sources */,
+				A36CEF6D22C99C6E00B345A5 /* TimerController.m in Sources */,
 				A36CEF4922C60E9400B345A5 /* main.m in Sources */,
+				A36CEF7322C99C9500B345A5 /* GCDController.m in Sources */,
 				A36CEF3B22C60E9100B345A5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +455,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "定时器3种实现方式/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +472,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "定时器3种实现方式/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
